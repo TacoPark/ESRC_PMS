@@ -1,0 +1,35 @@
+#pjContent_page form{
+    margin-bottom: 0;
+}
+#pjContent_page .wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#pjContent_page .content_head, .detailed_head {
+    background-color: #f6f6f6;
+    border-bottom: solid 1px #e9e9e9;
+    border-top: solid 1px #e9e9e9;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+#pjContent_page .content, .detailed {
+    padding: 10px 50px 10px;
+}
+#pjContent_page textarea {
+    width: 100%;
+    overflow: visible;
+    max-height: 600px;
+    border: none;
+    font-size: 16px;
+    resize: none;
+}
+.content textarea {
+	min-height: 200px;
+}
+.detailed textarea {
+	min-height: 450px;
+}

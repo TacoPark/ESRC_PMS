@@ -1,0 +1,69 @@
+/*Light Box*/
+#myModal{
+    left: 45%;
+    width: 750px;
+}
+.modal-header{
+    height: 30px;
+}
+#myModal .modal-body {
+    padding: 30px 30px;
+}
+#myModal .modal-body table{
+    width: 700px;
+}
+#myModal .modal-body table tr td:nth-child(1){
+    padding: 0px 5px;
+    width: 80px;
+}
+#myModal .modal-body input {
+    padding: 6px 6px;
+    margin-top: 10px;
+    
+}
+#myModal .modal-body input:not([type="date"]) {
+    width: 83%;
+    float: left;
+}
+
+#myModal .modal-body input[type="file"]{
+    margin-left: 10px;
+}
+#myModal .modal-body input[type="radio"]{
+    margin-top: 4px;
+    width: 20px;
+}
+.modal-body input[type="date"]{
+    width: 35%;
+}
+#myModal .modal-body input[name="date-end"]{
+    float: none;
+}
+#myModal .modal-body label{
+    float: left;
+    margin-right: 10px;
+}
+
+/*李몄뿬�뿰援ъ썝 �벑濡앹갹*/
+#myModal_new_member {
+    width: 600px;
+}
+#myModal_new_member .modal-body {
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#myModal_new_member .modal-body table tr td:nth-child(2n-1){
+    padding: 0px 5px;
+    width: 70px;
+}
+#myModal_new_member .modal-body tr{
+    height: 50px;
+}
+#myModal_new_member .modal-body input:not([type="date"]) {
+    padding: 5px;
+    width: 93%;
+}
+#myModal_new_member .modal-body input{
+    margin: 0;
+}

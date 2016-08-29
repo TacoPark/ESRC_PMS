@@ -1,0 +1,68 @@
+#pjInfo_page {
+}
+#pjInfo_page form {
+    margin: 0;s
+}
+#pjInfo_page ul{
+    margin: 0px;
+}
+#pjInfo_page div:not(.target){
+    display: inline-block;
+    height: 60px;
+    
+}
+.column_wrapper {
+    display: block;
+}
+#pjInfo_page input[type="radio"] {
+    margin: 0 3px 3px 0;
+}
+#pjInfo_page input[type="radio"]~label{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+#pjInfo_page label[for="period"]{
+    margin: 0px;
+}
+.left_column_wrap{
+    margin:0px;
+}
+.left_column {
+    width: 200px;
+    height: 50px;
+    
+    text-align: right;
+    padding-right: 10px;
+    background-color: #f6f6f6;
+    border-right: solid 1px #e9e9e9;
+}
+.left_column strong {
+    line-height: 60px;
+}
+.right_column{
+    margin-left: 10px;
+}
+.right_column input{
+    margin: 0px;
+    padding: 10px 6px;
+}
+.right_column input:hover {
+    background-color: #d9edf7;
+}
+.right_column input[type="text"] {
+    width: 450px;
+}
+.right_column input {
+    border: none;
+}
+.target {
+    float:left;
+    padding-right: 10px;
+    height: 240px;
+    width: 200px;
+    background-color: #f6f6f6;
+    border-right: solid 1px #e9e9e9;
+}
+input[type="date"]{
+	width : 35%;
+}

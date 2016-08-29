@@ -1,0 +1,342 @@
+* {
+    font-family: 'Nanum Gothic', Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #eeeeee;
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    display: inline;
+    margin: 0 5px 0 10px;
+}
+
+#header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    background-color: #616161;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+#header a{
+    color: #ffffff;
+}
+
+#header strong {
+    font-size: 30px;
+}
+.logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.header_btn {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0 5px;
+    float: right;
+}
+
+.icon-align-justify {
+    margin: 0px;
+}
+
+/*Navigation_Phone_ver*/
+#nav_phone_ver {
+    padding: 20px 0 0 0;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 90%;
+    height: 100%;
+    z-index: 100;
+    float: right;
+    background-color: #ffffff;
+}
+
+#nav_phone_ver ul li {
+    line-height: 20px;
+    font-size: 20px;
+    height: 20%;
+    text-align: left;
+    line-height: 50px;
+    border-bottom: solid 1px #999999;
+}
+#nav_phone_ver ul li:hover {
+    background-color: #33cc99;
+}
+#nav_phone_ver ul p{
+    color: #999999;
+}
+#nav_phone_ver ul p:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Main*/
+#wrap {
+    height: 100%;
+    min-height: 100%;
+    padding-top: 10px;
+    background-color: #eeeeee;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.accordion-group {
+    border-color: #ffffff;
+}
+
+.accordion-inner {
+    border-color: #ffffff;
+}
+
+#btn-navbar {
+    float: right;
+    margin: 0;
+    line-height: 25px;
+}
+
+/*NAVIGATION*/
+#nav {
+    display: none;
+    border: none;
+}
+
+#nav ul {
+    padding-top: 10px;
+    margin: 0;
+    height: 700px;
+}
+
+#nav ul li {
+    height: 35px;
+    line-height: 35px;
+    list-style: none;
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+#nav ul li:hover {
+    background-color: #f38630;
+}
+
+#nav ul p:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#address {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+
+/*ARTICLE*/
+#article {
+    font-size: 15px;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    background-color: #ffffff;
+    box-shadow: 5px 0px 20px gray;
+    border-radius: 5px;
+}
+.navbar {
+    margin: 0px;
+    border: none;
+}
+
+.navbar-inner {
+    padding: 0px;
+    border: none;
+}
+
+#article_header {
+    height: 60px;
+    border-bottom: solid 1px #eeeded;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 0px;
+    float: left;
+}
+
+.input-append {
+    display: none;
+}
+
+#btn-navbar {
+    margin: 10px 20px 10px 0px;
+
+}
+
+#article_context {
+    font-size: 20px;
+    height: 100%;
+    overflow: auto;
+}
+.accordion-inner {
+    padding: 0px;
+}
+#article_context h4 {
+    font-size: 20px;
+}
+.list_scope {
+    padding: 10px 0;
+    border-bottom: solid 0.1px #f2f1f1;
+}
+
+.article_contents {
+    border: dotted 0.1px #red;
+}
+
+
+/*ASIDE*/
+
+#aside {
+    display: block;
+    width: 100%;
+}
+
+#aside_header {
+    height: 100px;
+    display: none;
+    padding: 0;
+}
+
+#aside_header ul {
+    margin: 0;
+    border-bottom: solid 1px #e0e0e0;
+
+}
+.session {
+
+    text-align: center;
+    display: block;
+    line-height: 50px;
+}
+
+#aside_header ul li:hover {
+    border-bottom: solid 2px #fcb811;
+}
+
+#aside_header ul .visited {
+    border-bottom: solid 2px #fcb811;
+}
+
+#aside_header_sub {
+    padding-right:20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#aside_context {
+    padding: 40px 40px 0px 40px;
+    margin-bottom: 10px;
+    height: 750px;
+    background-color: #ffffff;
+    border: solid 0.1px #e3e3e3;
+    overflow: auto;
+    text-align:center;
+    /*box-shadow: 5px 0px 20px gray;*/
+    border-radius: 5px;
+}
+
+#aside_context p {
+    display: inline-block;
+    float: right;
+}
+
+#aside_context button i {
+    margin: 0;
+}
+
+#accordion2 .accodion-group {
+    border: none;
+}
+
+/*참여연구원*/
+.table {
+    width: 100%;
+    border-bottom: solid 1.5px #000000;
+}
+.table_head {
+    border-top: solid 1.5px #000000;
+    border-bottom: solid 1.5px #000000;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 40px;
+    line-height: 40px;
+}
+.table_sub_head{
+    border-top: solid 1.5px #dddddd;
+    height: 50px;
+    line-height: 50px;
+}
+.table_sub_head:hover{
+    background-color: #fcb811;
+}
+.highlight {
+    background-color: #fcb811;
+}
+.table span {
+    display: inline-block;
+    height: 50px;
+}
+.table span:nth-child(3n+1) {
+    width: 20%;
+}
+.table span:nth-child(3n+2) {
+    width: 50%;
+}
+.table span:nth-child(3n) {
+    width: 30%;
+}
+.table_context {
+    height: 150px;
+    padding: 20px;
+    font-align: center;
+}
+.table th, .table td {
+    border-top: none;
+}
+
+/*Light Box*/
+#myModal{
+
+}
+.modal-header{
+    height: 30px;
+}
+.modal-body table tr td:nth-child(1){
+    padding: 0px 5px;
+}
+.modal-body table tr td:nth-child(2){
+    width: 350px;
+}
+.modal-body input {
+    margin-top: 10px;
+}
+
